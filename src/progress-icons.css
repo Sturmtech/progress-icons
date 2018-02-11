@@ -1,0 +1,7 @@
+.progress-icons{
+	overflow: hidden;
+}
+
+.progress-icons > *{
+	float: left;
+}
