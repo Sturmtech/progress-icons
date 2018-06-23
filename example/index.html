@@ -11,7 +11,7 @@
         body{
             font-family: Arial;
             line-height: 40px;
-        }        
+        }
 
         h1{
             text-align: center;
@@ -28,6 +28,11 @@
         .pb-5{
             padding-bottom: 5px;
         }
+
+        .progress-icons{
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
     </style>
 </head>
 
@@ -36,8 +41,8 @@
         <h1>Progress Icons JS</h1>
 
         <div id="progress-10" class="progress-icons ft-20">
-        	<i class="fa fa-female"></i>
-        	<i class="fa fa-male"></i>
+            <i class="fa fa-female"></i>
+            <i class="fa fa-male"></i>
             <i class="fa fa-male"></i>
         </div>
         <hr>
@@ -66,8 +71,8 @@
             shadows: 5,
             total: 10,
         });
-    	
-		$('#progress-100').progressIcons({
+
+        $('#progress-100').progressIcons({
             color: 'red',
             delay: 100,
             shadows: 50,
@@ -76,7 +81,7 @@
 
         $('#progress-200').progressIcons({
             color: 'red',
-            delay: 100,
+            delay: 50,
             shadows: 100,
             total: 200,
         });
